@@ -6,12 +6,16 @@
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
   "devDependencies": {
-  "jest": "^29.0.0",
-  "ts-jest": "^29.0.0",
-  "@types/jest": "^29.0.0",
-  "typescript": "^5.0.0"
-}
-
+    "@types/express": "^5.0.1",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^22.15.17",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
 }
